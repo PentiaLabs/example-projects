@@ -37,16 +37,16 @@ www
     │   │   ├──── Feed.less
     │   │   └──── main.js
     │   └───Accordion
-    │		 ├──── Web.config  
-    │		 ├──── Accordion.csproj 
-    │        ├───Presentation
-    │        │   ├──── ViewModels/..
-    │        │   └──── Accordion.cshtml
-    │        └───Client
-    │            ├──── Accordion-image-static.png
-    │            ├──── Accordion.scss
-    │            ├──── Accordion.swig
-    │            └──── Accordion.js
+    │       ├──── Web.config  
+    │       ├──── Accordion.csproj 
+    │       ├───Presentation
+    │       │   ├──── ViewModels/..
+    │       │   └──── Accordion.cshtml
+    │       └───Client
+    │           ├──── Accordion-image-static.png
+    │           ├──── Accordion.scss
+    │           ├──── Accordion.swig
+    │           └──── Accordion.js
     └───Project
         └───ClientDependencies
             └──── bower_components
