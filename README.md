@@ -1,4 +1,4 @@
-# example-projects
+# Example projects
 Contains example structures for projects, mostly front-end wise as of now.
 
 
@@ -16,9 +16,15 @@ www
 
 
 ## frontend-components
-An example of frontend components that lives with the backend code. But in it's own sub folder `Client`.
+An example of self-contained frontend components that lives with the backend code. But in it's own sub folder `Client`.
 
 The pattern for the frontend loader would look like this `www/Components/%ComponentType%/%ComponentName%/Client/%ComponentName%.js`.
+
+We talked about splitting up the client files in folder like
+
+- /Templates/
+- /Scripts/
+- /Styles/
 
 ```
 www  
@@ -32,7 +38,7 @@ www
     │   │   └──── CustomInputs.js
     │   └───FormValidation\Client
     │       ├──── CustomInputs.less
-    │       └──── └───FormValidation.js
+    │       └──── FormValidation.js
     │
     ├───Domain
     │   ├───NewsFeed\Client
