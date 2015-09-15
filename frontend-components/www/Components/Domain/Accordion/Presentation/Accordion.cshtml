@@ -1,0 +1,23 @@
+﻿@using System.Activities.Statements
+@using PT.Framework.MvcEditFrame
+@using PT.Framework.SitecoreExtensions
+@using Sitecore
+@using Sitecore.Data
+@using Sitecore.Data.Items
+@using Sitecore.Mvc
+
+
+
+
+
+
+@model Accordion.Presentation.ViewModels.AccordionViewModel
+
+<!--AccordionViewModel START-->
+<div class="accordion" data-component="accordion">
+    <h2 class="accordion__header is-maximized">@Model.Title</h2>
+    <div class="accordion__content">
+        @Model.Text
+    </div>
+</div>
+<!--AccordionViewModel END -->
