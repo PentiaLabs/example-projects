@@ -18,6 +18,8 @@ www
 ## frontend-components
 An example of frontend components that lives with the backend code. But in it's own sub folder `Client`.
 
+The pattern for the frontend loader would look like this `www/Components/%ComponentType%/%ComponentName%/Client/%ComponentName%.js`.
+
 ```
 www  
 │
@@ -27,15 +29,15 @@ www
     │   ├───FrontendComponentLoader (require ect.)
     │   ├───CustomInputs\Client
     │   │   ├──── CustomInputs.less
-    │   │   └──── main.js
+    │   │   └──── CustomInputs.js
     │   └───FormValidation\Client
     │       ├──── CustomInputs.less
-    │       └──── main.js
+    │       └──── └───FormValidation.js
     │
     ├───Domain
     │   ├───NewsFeed\Client
     │   │   ├──── Feed.less
-    │   │   └──── main.js
+    │   │   └──── NewsFeed.js
     │   └───Accordion
     │       ├──── Web.config  
     │       ├──── Accordion.csproj 
